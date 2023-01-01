@@ -103,8 +103,9 @@ h1 {
 }
 
 .btn {
-  border: none;
-  background-color: #eee;
+  border: 2px solid #fff;
+  border-radius: 1px 45px 1px 45px;
+  /* background-color: #eee !important; */
   color: #222;
   font-size: 5rem;
   font-family: inherit;
