@@ -22,7 +22,8 @@ body {
 header {
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;
+  border-bottom: 7px solid #eee;  
+  pointer-events: none;
 }
 
 main {
@@ -30,7 +31,8 @@ main {
   color: #eee;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around;  
+  /* pointer-events: none; */
 }
 
 .left {
@@ -54,6 +56,11 @@ h1 {
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* font-size: 10rem; */
+      background: linear-gradient(to right,rgb(67, 124, 205),rgb(69, 214, 202));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  
 }
 
 .number {
@@ -99,10 +106,13 @@ h1 {
   border: none;
   background-color: #eee;
   color: #222;
-  font-size: 2rem;
+  font-size: 5rem;
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+      background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(219, 250, 81), rgb(252, 210, 21));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 
 .btn:hover {
