@@ -56,9 +56,9 @@ h1 {
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-      /* background: linear-gradient(to right,rgb(67, 124, 205),rgb(69, 214, 202));
+      background: linear-gradient(to right,rgb(67, 124, 205),rgb(69, 214, 202));
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; */
+      -webkit-text-fill-color: transparent;
   
 }
 
@@ -104,15 +104,15 @@ h1 {
 .btn {
   border: 2px solid #fff;
   border-radius: 1px 45px 1px 45px;
-  background-color: #eee !important;
+  /* background-color: #eee !important; */
   color: #222;
   font-size: 5rem;
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
-      /* background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(219, 250, 81), rgb(252, 210, 21));
+      background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(219, 250, 81), rgb(252, 210, 21));
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; */
+      -webkit-text-fill-color: transparent;
 }
 
 .btn:hover {
