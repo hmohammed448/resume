@@ -15,7 +15,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".message").textContent = "👌 You WIN 🎉";
     score + 1;
     document.querySelector(".score").textContent = score;
-    document.querySelector("body").style.backgroundColor = "#60b347";
+    document.querySelector("body").style.backgroundColor = "#90D5EC";
     document.querySelector(".number").style.width = "30rem";
     document.querySelector(".number").textContent = secretNumber;
   }
