@@ -22,8 +22,7 @@ body {
 header {
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;  
-  pointer-events: none;
+  border-bottom: 7px solid #eee;
 }
 
 main {
@@ -31,8 +30,7 @@ main {
   color: #eee;
   display: flex;
   align-items: center;
-  justify-content: space-around;  
-  /* pointer-events: none; */
+  justify-content: space-around;
 }
 
 .left {
